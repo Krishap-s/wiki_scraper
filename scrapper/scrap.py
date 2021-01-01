@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
-from section import Section
+from .section import Section
 
 def scrapWikiPage (topic):
     ''' Extracts web page page and converts to beautiful soup format , if an error occurs return -1'''

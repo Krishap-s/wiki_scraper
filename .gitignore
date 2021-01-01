@@ -1,2 +1,4 @@
 wiki_scraper
 dist
+wiki_scrapper.egg-info
+build/
