@@ -17,7 +17,7 @@ def scrapWikiPage (topic):
         return -1
 
 def organise(topic,soup):
-    ''' Organises all text into section objects '''
+    ''' Organises all text into section objects .Each subsection is determined by heading type at the beginning'''
     WikiSection = Section(topic,"",1)
     CurrentSection = WikiSection
     for elem in soup:

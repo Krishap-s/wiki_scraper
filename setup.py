@@ -1,11 +1,11 @@
 from distutils.core import setup
 
 setup(name="wiki_scrapper",
-      version="1.0",
+      version="0.1",
       author="Krishap S",
       author_email="krishapsreenivasn.s2020@vitstudent.ac.in",
       url="https://github.com/Krishap-s/wiki_scraper",
-      scripts=['main.py'],
+      package=['package'],
       install_requires=[
           "beautifulsoup4==4.9.3",
           "bs4==0.0.1",
@@ -16,6 +16,6 @@ setup(name="wiki_scrapper",
           "soupsieve==2.1",
           "urllib==1.26.2"],
       short_description = "Wiki Web Scraper",
-      long_description=open('README.md').read(),
+      long_description="Scraps from wiki page and stores in an object",
       long_description_content_type='text/markdown',
       )
